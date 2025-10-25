@@ -58,7 +58,7 @@ class TemplateView {
   private function defaultJS()
   {
     return [
-      'script.js',
+      'script.js'
     ];
   }
 }
