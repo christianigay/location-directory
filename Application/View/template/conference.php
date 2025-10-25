@@ -1,123 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Inspired-Conf26-web</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php foreach ($this->cssFiles as $file): ?>
+	<title>Inspired-Conf26-web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<?php foreach ($this->cssFiles as $file): ?>
 		<link rel="stylesheet" type="text/css" href="<?php echo $file; ?>">
 	<?php endforeach; ?>
 </head>
+
 <body>
-    <div class="container">
+	<div class="container">
 
 		<div class="hero-overlay">
 			<button>REGISTER NOW</button>
 			<div>SATURDAY, APRIL 25</div>
 		</div>
-		<div class="row title-container">
-			<div class="row">
-				<video autoplay muted loop playsinline>
-					<source src="videos/Inspired_desktop_output.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
-				<div>
-					
-				</div>
-				<div class="main-title">
 
-					<div>THE INSPIRED CONFERENCE 2026</div>
+		<div class="title-container">
+			<video autoplay muted loop playsinline>
+				<source src="videos/Inspired_desktop_output.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+
+			<!-- main title background -->
+			<div class="main-title"></div>
+
+			<!-- text below main title -->
+			<div class="conference-title">
+				THE INSPIRED CONFERENCE 2026
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div style="flex: 0 0 100%;">
+				<img src="images/register-text.jpg" alt="">
+			</div>
+		</div>
+		<!-- Row 5 -->
+		<div class="row">
+			<div style="flex: 0 0 39.58%;">
+				<img src="images/inex_09.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 45.00%;">
+				<img src="images/quote-first.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 15.42%;">
+				<img src="images/inex_11.jpg" alt="">
+			</div>
+		</div>
+		<!-- Row 6 -->
+		<div class="row">
+			<div style="flex: 0 0 100%;">
+				<img src="images/theme-title.jpg" alt="">
+			</div>
+		</div>
+		<!-- Row 7 -->
+		<div class="row">
+			<div style="flex: 0 0 6.72%;">
+				<img src="images/inex_13.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 7.76%;">
+				<img src="images/inex_14.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 41.61%;">
+				<img src="images/quote-second.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 7.50%;">
+				<img src="images/inex_16.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 6.92%;">
+				<img src="images/inex_17.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 6.98%;">
+				<img src="images/inex_18.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 7.08%;">
+				<img src="images/inex_19.jpg" alt="">
+			</div>
+			<div style="flex: 0 0 15.42%;">
+				<img src="images/inex_20.jpg" alt="">
+			</div>
+		</div>
+		<!-- Row 8 -->
+		<div class="row">
+			<div style="flex: 0 0 100%;">
+				<img src="images/gallery.jpg" alt="">
+			</div>
+		</div>
+		<!-- Footer -->
+		<div class="footer">
+			<div class="footer-left">
+				<div>
+					<img src="images/footer-logo.jpg" alt="">
+				</div>
+				<div>
+					<img src="images/instagram.jpg" alt="">
+				</div>
+				<div>
+					<img src="images/email.jpg" alt="">
+				</div>
+				<div>
+					<img src="images/inex_29.jpg" alt="">
 				</div>
 			</div>
-        </div>
-
-        <div class="row">
-            <div style="flex: 0 0 100%;">
-                <img src="images/register-text.jpg" alt="">
-            </div>
-        </div>
-        <!-- Row 5 -->
-        <div class="row">
-            <div style="flex: 0 0 39.58%;">
-                <img src="images/inex_09.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 45.00%;">
-                <img src="images/quote-first.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 15.42%;">
-                <img src="images/inex_11.jpg" alt="">
-            </div>
-        </div>
-        <!-- Row 6 -->
-        <div class="row">
-            <div style="flex: 0 0 100%;">
-                <img src="images/theme-title.jpg" alt="">
-            </div>
-        </div>
-        <!-- Row 7 -->
-        <div class="row">
-            <div style="flex: 0 0 6.72%;">
-                <img src="images/inex_13.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 7.76%;">
-                <img src="images/inex_14.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 41.61%;">
-                <img src="images/quote-second.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 7.50%;">
-                <img src="images/inex_16.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 6.92%;">
-                <img src="images/inex_17.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 6.98%;">
-                <img src="images/inex_18.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 7.08%;">
-                <img src="images/inex_19.jpg" alt="">
-            </div>
-            <div style="flex: 0 0 15.42%;">
-                <img src="images/inex_20.jpg" alt="">
-            </div>
-        </div>
-        <!-- Row 8 -->
-        <div class="row">
-            <div style="flex: 0 0 100%;">
-                <img src="images/gallery.jpg" alt="">
-            </div>
-        </div>
-        <!-- Footer -->
-        <div class="footer">
-            <div class="footer-left">
-                <div>
-                    <img src="images/footer-logo.jpg" alt="">
-                </div>
-                <div>
-                    <img src="images/instagram.jpg" alt="">
-                </div>
-                <div>
-                    <img src="images/email.jpg" alt="">
-                </div>
-                <div>
-                    <img src="images/inex_29.jpg" alt="">
-                </div>
-            </div>
-            <div class="footer-right">
-                <div style="flex: 0 0 5.31%;">
-                    <img src="images/inex_23.jpg" alt="">
-                </div>
-                <div style="flex: 0 0 34.63%;">
-                    <img src="images/footer-middle.jpg" alt="">
-                </div>
-                <div style="flex: 0 0 10.31%;">
-                    <img src="images/inex_25.jpg" alt="">
-                </div>
-                <div style="flex: 0 0 22.50%;">
-                    <img src="images/footer-end.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+			<div class="footer-right">
+				<div style="flex: 0 0 5.31%;">
+					<img src="images/inex_23.jpg" alt="">
+				</div>
+				<div style="flex: 0 0 34.63%;">
+					<img src="images/footer-middle.jpg" alt="">
+				</div>
+				<div style="flex: 0 0 10.31%;">
+					<img src="images/inex_25.jpg" alt="">
+				</div>
+				<div style="flex: 0 0 22.50%;">
+					<img src="images/footer-end.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
+
 </html>
