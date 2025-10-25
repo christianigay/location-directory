@@ -51,14 +51,14 @@ class TemplateView {
   private function defaultCSS()
   {
     return [
-      'style.css'
+      'assets/css/style.css'
     ];
   }
 
   private function defaultJS()
   {
     return [
-      'script.js'
+      'assets/js/script.js'
     ];
   }
 }

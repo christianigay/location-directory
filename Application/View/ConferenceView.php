@@ -9,8 +9,8 @@ class ConferenceView extends TemplateView implements ViewInterface {
   public function view($data = [])
   {
     $this->layout = 'conference';
-    $this->addCSS('conference.css');
-    $this->addJS('conference.js');
+    $this->addCSS('assets/css/conference.css');
+    $this->addJS('assets/js/conference.js');
     $this->render($data);
   }
 }
