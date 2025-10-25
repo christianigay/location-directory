@@ -1,122 +1,174 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Inspired-Conf26-web - Copy</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Inspired-Conf26-web - Copy</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+        }
+        #Table_01 {
+            width: 100%;
+            max-width: 1920px;
+            margin: 0 auto;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+        #Table_01 img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        @media (max-width: 768px) {
+            #Table_01 {
+                table-layout: auto;
+            }
+            #Table_01 td {
+                display: block;
+                width: 100% !important;
+            }
+            #Table_01 tr:not(:last-child) {
+                display: block;
+            }
+            #Table_01 colgroup {
+                display: none;
+            }
+        }
+    </style>
 </head>
-<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<body>
 <!-- Save for Web Slices (Inspired-Conf26-web - Copy.psd) -->
-<table id="Table_01" width="1920" height="4321" border="0" cellpadding="0" cellspacing="0">
+<table id="Table_01" border="0" cellpadding="0" cellspacing="0">
+    <colgroup>
+        <col style="width:6.72%;">
+        <col style="width:7.76%;">
+        <col style="width:11.56%;">
+        <col style="width:1.2%;">
+        <col style="width:5.31%;">
+        <col style="width:7.03%;">
+        <col style="width:16.51%;">
+        <col style="width:7.5%;">
+        <col style="width:3.59%;">
+        <col style="width:3.33%;">
+        <col style="width:3.44%;">
+        <col style="width:3.54%;">
+        <col style="width:7.08%;">
+        <col style="width:15.42%;">
+    </colgroup>
 	<tr>
 		<td colspan="3">
-			<img src="images/register_button.jpg" width="500" height="172" alt=""></td>
+			<img src="images/register_button.jpg" alt=""></td>
 		<td colspan="8">
-			<img src="images/saturday_text.jpg" width="920" height="172" alt=""></td>
+			<img src="images/saturday_text.jpg" alt=""></td>
 		<td colspan="3">
-			<img src="images/inex_03.jpg" width="500" height="172" alt=""></td>
+			<img src="images/inex_03.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="3">
-			<img src="images/inex_04.jpg" width="500" height="690" alt=""></td>
+			<img src="images/inex_04.jpg" alt=""></td>
 		<td colspan="8">
-			<img src="images/inspired-logo.jpg" width="920" height="690" alt=""></td>
+			<img src="images/inspired-logo.jpg" alt=""></td>
 		<td colspan="3">
-			<img src="images/inex_06.jpg" width="500" height="690" alt=""></td>
+			<img src="images/inex_06.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="14">
-			<img src="images/inspired-desc.jpg" width="1920" height="239" alt=""></td>
+			<img src="images/inspired-desc.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="14">
-			<img src="images/register-text.jpg" width="1920" height="182" alt=""></td>
+			<img src="images/register-text.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="6">
-			<img src="images/inex_09.jpg" width="760" height="504" alt=""></td>
+			<img src="images/inex_09.jpg" alt=""></td>
 		<td colspan="7">
-			<img src="images/quote-first.jpg" width="864" height="504" alt=""></td>
+			<img src="images/quote-first.jpg" alt=""></td>
 		<td>
-			<img src="images/inex_11.jpg" width="296" height="504" alt=""></td>
+			<img src="images/inex_11.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="14">
-			<img src="images/theme-title.jpg" width="1920" height="606" alt=""></td>
+			<img src="images/theme-title.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td>
-			<img src="images/inex_13.jpg" width="129" height="252" alt=""></td>
+			<img src="images/inex_13.jpg" alt=""></td>
 		<td>
-			<img src="images/inex_14.jpg" width="149" height="252" alt=""></td>
+			<img src="images/inex_14.jpg" alt=""></td>
 		<td colspan="5">
-			<img src="images/quote-second.jpg" width="799" height="252" alt=""></td>
+			<img src="images/quote-second.jpg" alt=""></td>
 		<td>
-			<img src="images/inex_16.jpg" width="144" height="252" alt=""></td>
+			<img src="images/inex_16.jpg" alt=""></td>
 		<td colspan="2">
-			<img src="images/inex_17.jpg" width="133" height="252" alt=""></td>
+			<img src="images/inex_17.jpg" alt=""></td>
 		<td colspan="2">
-			<img src="images/inex_18.jpg" width="134" height="252" alt=""></td>
+			<img src="images/inex_18.jpg" alt=""></td>
 		<td>
-			<img src="images/inex_19.jpg" width="136" height="252" alt=""></td>
+			<img src="images/inex_19.jpg" alt=""></td>
 		<td>
-			<img src="images/inex_20.jpg" width="296" height="252" alt=""></td>
+			<img src="images/inex_20.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="14">
-			<img src="images/gallery.jpg" width="1920" height="1248" alt=""></td>
+			<img src="images/gallery.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="4">
-			<img src="images/footer-logo.jpg" width="523" height="282" alt=""></td>
+			<img src="images/footer-logo.jpg" alt=""></td>
 		<td rowspan="4">
-			<img src="images/inex_23.jpg" width="102" height="427" alt=""></td>
+			<img src="images/inex_23.jpg" alt=""></td>
 		<td colspan="4" rowspan="4">
-			<img src="images/footer-middle.jpg" width="665" height="427" alt=""></td>
+			<img src="images/footer-middle.jpg" alt=""></td>
 		<td colspan="3" rowspan="4">
-			<img src="images/inex_25.jpg" width="198" height="427" alt=""></td>
+			<img src="images/inex_25.jpg" alt=""></td>
 		<td colspan="2" rowspan="4">
-			<img src="images/footer-end.jpg" width="432" height="427" alt=""></td>
+			<img src="images/footer-end.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="4">
-			<img src="images/instagram.jpg" width="523" height="46" alt=""></td>
+			<img src="images/instagram.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="4">
-			<img src="images/email.jpg" width="523" height="58" alt=""></td>
+			<img src="images/email.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td colspan="4">
-			<img src="images/inex_29.jpg" width="523" height="41" alt=""></td>
+			<img src="images/inex_29.jpg" alt=""></td>
 	</tr>
 	<tr>
 		<td>
-			<img src="images/spacer.gif" width="129" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="149" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="222" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="23" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="102" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="135" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="317" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="144" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="69" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="64" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="66" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="68" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="136" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 		<td>
-			<img src="images/spacer.gif" width="296" height="1" alt=""></td>
+			<img src="images/spacer.gif" alt=""></td>
 	</tr>
 </table>
 <!-- End Save for Web Slices -->
