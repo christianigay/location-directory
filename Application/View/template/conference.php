@@ -35,8 +35,8 @@
 
 
 		<div class="row">
-			<div style="flex: 0 0 100%;">
-				<img src="images/register-text.jpg" alt="">
+			<div class="register-text">
+				<div>REGISTER NOW</div>
 			</div>
 		</div>
 		<!-- Row 5 -->
