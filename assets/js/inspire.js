@@ -1,7 +1,13 @@
-document.addEventListener('scroll', () => {
+window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
-  document.querySelectorAll('.scribble').forEach((el, i) => {
-    const offset = (scrollY * 0.05) * (i % 2 === 0 ? 1 : -1);
-    el.style.setProperty('--scrollY', `${offset}px`);
+  const scribbles = document.querySelectorAll('.scribble');
+
+  scribbles.forEach((el, index) => {
+    // Move scribbles gently up and down based on scroll position
+    const amplitude = 10; // max movement in px
+    const speed = 0.0025; // how responsive it is
+    const offset = Math.sin(scrollY * speed + index) * amplitude;
+
+    el.style.transform = `translateY(${offset}px) rotate(var(--rotate, 0deg))`;
   });
 });

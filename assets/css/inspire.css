@@ -265,7 +265,7 @@ body {
   z-index: 1;
   opacity: 0.8;
   pointer-events: none;
-  transition: all 0.3s ease;
+  transition: transform 0.25s ease-out;
   animation: floatScribble 6s ease-in-out infinite;
   will-change: transform;
 }
