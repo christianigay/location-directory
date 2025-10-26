@@ -128,42 +128,40 @@ body {
 }
 
 /* === QUOTE SECTION === */
-.quote-section {
+.quote-row {
   display: flex;
-  flex-wrap: nowrap;
+  align-items: stretch;
   width: 100%;
-  background: #fff;
+  max-width: 1920px; /* optional */
+  margin: 0 auto;
+	background-color: #6db989;
+  text-align: end;
+	color: white;
+  font-family: 'Cortado';
+	font-style: italic;
+  font-size: 30px;
+	line-height: 34px;
+	padding: 90px 0px;
 }
 
-.quote-section div {
-  flex-shrink: 0;
+.quote-part.start {
+  flex: 0 0 10%;
 }
 
-.quote-section .start {
-  width: 640px;
+.quote-part.middle {
+  flex: 0 0 80%;
 }
 
-.quote-section .middle {
-  width: 994px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
+.quote-part.end {
+  flex: 0 0 10%;
 }
 
-.quote-main-center {
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.8;
-  color: #333;
+.quote-part img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.quote-author {
-  margin-top: 20px;
-  font-weight: 700;
-  color: #444;
-  font-style: italic;
-}
 
 /* === FOOTER === */
 .footer-top {
