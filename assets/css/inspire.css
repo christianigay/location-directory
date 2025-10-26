@@ -169,7 +169,7 @@ body {
   flex: 0 0 69%;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
   line-height: 34px;
-  padding: 90px 214px;
+  padding: 90px 397px;
 }
 
 .quote-author {
@@ -254,15 +254,15 @@ body {
 }
 
 .scribble-1 {
-  top: -15%;
-  left: 51%;
+  top: -12%;
+  left: 50%;
   transform: translateX(-50%) rotate(8deg);
   width: 96%;
 }
 
 .scribble-2 {
-  bottom: -108px;
-  right: -10%;
+  bottom: -160px;
+  right: 2%;
   transform: rotate(-6deg);
   width: 28%;
 }
@@ -389,6 +389,11 @@ body {
 
   .scribble {
     opacity: 0.7;
+  }
+
+  .scribble-1 {
+    top: -6%;
+    left: 50%;
   }
 }
 
