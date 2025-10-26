@@ -162,9 +162,16 @@ body {
   font-family: 'Cortado';
   font-style: italic;
   flex: 0 0 69%;
-  font-size: 28px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
   line-height: 34px;
   padding: 90px 120px;
+}
+
+.quote-author {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: clamp(0.7rem, 2vw, 1.2rem);
+  color: #666;
 }
 
 /* === THEME === */
@@ -276,5 +283,10 @@ body {
 
   .theme-section2 {
     padding: 10px;
+  }
+
+  .quote-main-center {
+    line-height: 1.5;
+    padding: 15px;
   }
 }
