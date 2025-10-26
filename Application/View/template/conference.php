@@ -57,16 +57,16 @@
 		<!-- Row 6 -->
 		<div class="row">
 			<div style="flex: 0 0 100%;">
-				<img src="images/theme-title.jpg" alt="">
+				<img src="assets/css/images/theme-title.jpg" alt="">
 			</div>
 		</div>
 		<!-- Row 7 -->
 		<div class="row">
 			<div style="flex: 0 0 6.72%;">
-				<img src="images/inex_13.jpg" alt="">
+				<img src="assets/css/images/inex_13.jpg" alt="">
 			</div>
 			<div style="flex: 0 0 7.76%;">
-				<img src="images/inex_14.jpg" alt="">
+				<img src="assets/css/images/inex_14.jpg" alt="">
 			</div>
 			<div class="quote-second">
 				<div>
@@ -81,55 +81,55 @@
 				</div>
 			</div>
 			<div style="flex: 0 0 7.50%;">
-				<img src="images/inex_16.jpg" alt="">
+				<img src="assets/css/images/inex_16.jpg" alt="">
 			</div>
 			<div style="flex: 0 0 6.92%;">
-				<img src="images/inex_17.jpg" alt="">
+				<img src="assets/css/images/inex_17.jpg" alt="">
 			</div>
 			<div style="flex: 0 0 6.98%;">
-				<img src="images/inex_18.jpg" alt="">
+				<img src="assets/css/images/inex_18.jpg" alt="">
 			</div>
 			<div style="flex: 0 0 7.08%;">
-				<img src="images/inex_19.jpg" alt="">
+				<img src="assets/css/images/inex_19.jpg" alt="">
 			</div>
 			<div style="flex: 0 0 15.42%;">
-				<img src="images/inex_20.jpg" alt="">
+				<img src="assets/css/images/inex_20.jpg" alt="">
 			</div>
 		</div>
 		<!-- Row 8 -->
 		<div class="row">
 			<div style="flex: 0 0 100%;">
-				<img src="images/gallery.jpg" alt="">
+				<img src="assets/css/images/gallery.jpg" alt="">
 			</div>
 		</div>
 		<!-- Footer -->
 		<div class="footer">
 			<div class="footer-left">
 				<div>
-					<img src="images/footer-logo.jpg" alt="">
+					<img src="assets/css/images/footer-logo.jpg" alt="">
 				</div>
 				<div>
-					<img src="images/instagram.jpg" alt="">
+					<img src="assets/css/images/instagram.jpg" alt="">
 				</div>
 				<div>
-					<img src="images/email.jpg" alt="">
+					<img src="assets/css/images/email.jpg" alt="">
 				</div>
 				<div>
-					<img src="images/inex_29.jpg" alt="">
+					<img src="assets/css/images/inex_29.jpg" alt="">
 				</div>
 			</div>
 			<div class="footer-right">
 				<div style="flex: 0 0 5.31%;">
-					<img src="images/inex_23.jpg" alt="">
+					<img src="assets/css/images/inex_23.jpg" alt="">
 				</div>
 				<div style="flex: 0 0 34.63%;">
-					<img src="images/footer-middle.jpg" alt="">
+					<img src="assets/css/images/footer-middle.jpg" alt="">
 				</div>
 				<div style="flex: 0 0 10.31%;">
-					<img src="images/inex_25.jpg" alt="">
+					<img src="assets/css/images/inex_25.jpg" alt="">
 				</div>
 				<div style="flex: 0 0 22.50%;">
-					<img src="images/footer-end.jpg" alt="">
+					<img src="assets/css/images/footer-end.jpg" alt="">
 				</div>
 			</div>
 		</div>
