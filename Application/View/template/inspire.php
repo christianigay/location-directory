@@ -58,6 +58,12 @@
       </div>
     </div>
 
+    <div class="theme-title">
+      <div class="image-wrapper">
+        <img src="assets/css/images/main-content-image.png" alt="Main content image">
+      </div>
+    </div>
+
   </div>
 </body>
 
