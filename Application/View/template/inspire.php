@@ -96,6 +96,9 @@
 
 
   </div>
+  <?php foreach ($this->jsFiles as $jsFile): ?>
+		<script src="<?php echo $jsFile; ?>"></script>
+	<?php endforeach; ?>
 </body>
 
 </html>

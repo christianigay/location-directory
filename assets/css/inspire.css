@@ -231,6 +231,20 @@ body {
 }
 
 /* === SCRIBBLE DECORATIONS === */
+@keyframes floatScribble {
+  0% {
+    transform: translateY(0) rotate(var(--rotate, 0deg));
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(var(--rotate, 0deg));
+  }
+
+  100% {
+    transform: translateY(0) rotate(var(--rotate, 0deg));
+  }
+}
+
 .scribble-section {
   position: relative;
   overflow: visible;
@@ -251,11 +265,14 @@ body {
   z-index: 1;
   opacity: 0.8;
   pointer-events: none;
+  transition: all 0.3s ease;
+  animation: floatScribble 6s ease-in-out infinite;
+  will-change: transform;
 }
 
 .scribble-1 {
-  top: -12%;
-  left: 50%;
+  top: -15%;
+  left: -1%;
   transform: translateX(-50%) rotate(8deg);
   width: 96%;
 }
@@ -332,6 +349,14 @@ body {
 /* === RESPONSIVENESS === */
 .desktop-only {
   display: block;
+}
+
+/* Subtle scroll animation (parallax-like) */
+@media (prefers-reduced-motion: no-preference) {
+  .scribble[data-scroll] {
+    transform: translateY(var(--scrollY, 0px)) rotate(var(--rotate, 0deg));
+    transition: transform 0.2s ease-out;
+  }
 }
 
 @media (max-width: 1024px) {
