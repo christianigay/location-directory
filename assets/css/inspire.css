@@ -21,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  overflow: hidden;
 }
 
 /* HERO: Make first section full-width edge-to-edge */
@@ -157,84 +158,32 @@ body {
   background-color: #6db989;
 }
 
+.quote-main-center {
+  font-family: 'Cortado';
+  font-style: italic;
+  flex: 0 0 69%;
+  font-size: 28px;
+  line-height: 34px;
+  padding: 90px 120px;
+}
+
 /* === THEME === */
-
-.theme-title {
+.theme-section img {
   width: 100%;
-  height: 500px;
-  /* adjust as needed */
-  background-image: url("images/theme-title.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #6db989;
-
-}
-
-.image-wrapper {
-  text-align: center;
-  padding: 38px 0px;
-}
-
-.image-wrapper img {
-  max-width: 65%;
+  /* makes image scale with container width */
   height: auto;
+  /* keeps correct aspect ratio */
   display: block;
-  margin: 0 auto;
+  /* removes gaps below images */
+  object-fit: cover;
+  /* ensures image fills space gracefully */
+}
+
+.theme-section {
+  background-color: #f8f8f8;
 }
 
 /* === GALLERY SECTION === */
-.gallery-section {
-  width: 100%;
-  min-height: 1198px;
-  background: url("images/gallery-section.jpg");
-  background-size: cover;
-  /* ensures full coverage */
-  background-position: center;
-  background-repeat: no-repeat;
-  display: block;
-}
-
-.quote-content {
-  max-width: 800px;
-  padding: 40px;
-  border-radius: 12px;
-}
-
-.quote-second-text {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  font-family: 'Cortado';
-  font-style: italic;
-}
-
-.quote-second-meaning {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 0px 10px;
-  line-height: 27px;
-  color: #fff;
-
-}
-
-.vibrant {
-  font-weight: 700;
-  font-size: 42px;
-  color: #fff;
-}
-
-.adj {
-  font-weight: 400;
-  font-size: 38px;
-  color: #fff;
-}
-
-.quote-second-meaning div {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 5px;
-}
 
 /* === FOOTER === */
 .footer-top {
@@ -280,5 +229,9 @@ body {
 @media (max-width: 768px) {
   .three-column {
     flex-direction: column;
+  }
+
+  .theme-section {
+    padding: 10px;
   }
 }

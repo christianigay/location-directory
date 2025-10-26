@@ -41,7 +41,6 @@
 
     <!-- Quote Section -->
     <div class="three-column">
-      <div class="col col-left"></div>
       <div class="col col-middle">
         <div class="quote-main-center">
           <div>Here's another way to put it: You're here to be light, bringing out</div>
@@ -55,7 +54,14 @@
           <div class="quote-author">Matthew 5:14–16 MSG</div>
         </div>
       </div>
-      <div class="col col-right"></div>
+    </div>
+
+    <div class="section theme-section">
+      <img src="assets/css/images/index_07.jpg" alt="Theme Image" />
+    </div>
+
+    <div class="section theme-section">
+      <img src="assets/css/images/index_08.jpg" alt="Theme Image" />
     </div>
 
 
