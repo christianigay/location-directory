@@ -40,10 +40,10 @@
 
 		<div class="row quote-row">
 			<div class="quote-main-column"></div>
-			
+
 			<div class="quote-main-center">
 				<div>Here's another way to put it: You're here to be light, bringing out</div>
-				<div>the God-colors in the world. God is not a secret t be kept.  We're</div>
+				<div>the God-colors in the world. God is not a secret be kept. We're</div>
 				<div>going public with this, as public as a acity on a hill. If I make you</div>
 				<div>light-bearers, you don't think I'm going to hide you under a bucket,</div>
 				<div>do you? I'm putting you on a light stand. Now that I've put you there</div>
@@ -103,34 +103,17 @@
 			</div>
 		</div>
 		<!-- Footer -->
-		<div class="footer">
+		<div class="conference-footer">
 			<div class="footer-left">
 				<div>
 					<img src="assets/css/images/footer-logo.jpg" alt="">
 				</div>
-				<div>
-					<img src="assets/css/images/instagram.jpg" alt="">
-				</div>
-				<div>
-					<img src="assets/css/images/email.jpg" alt="">
-				</div>
-				<div>
-					<img src="assets/css/images/inex_29.jpg" alt="">
-				</div>
+			</div>
+			<div class="footer-center">
+				<p>THE INSPIRED CONFERENCE 2026</p>
 			</div>
 			<div class="footer-right">
-				<div style="flex: 0 0 5.31%;">
-					<img src="assets/css/images/inex_23.jpg" alt="">
-				</div>
-				<div style="flex: 0 0 34.63%;">
-					<img src="assets/css/images/footer-middle.jpg" alt="">
-				</div>
-				<div style="flex: 0 0 10.31%;">
-					<img src="assets/css/images/inex_25.jpg" alt="">
-				</div>
-				<div style="flex: 0 0 22.50%;">
-					<img src="assets/css/images/footer-end.jpg" alt="">
-				</div>
+				dasdf
 			</div>
 		</div>
 	</div>
