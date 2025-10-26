@@ -127,7 +127,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 1235px;
+	height: 918px;
 	width: 100%;
 	padding: 40px 0;
 	/* optional: gives breathing space */
@@ -300,6 +300,19 @@ body {
 	object-fit: contain;
 	margin: 4px 0px;
 }
+
+.vibrant-section {
+  background-image: url('images/vibrant-section.jpg');
+  background-size: cover;         /* fill the area */
+  background-position: center;    /* center the image */
+  background-repeat: no-repeat;   /* avoid tiling */
+  width: 100%;
+  height: 185px;                  /* adjust height as needed */
+  display: flex;
+  align-items: center;            /* centers content vertically if you add text later */
+  justify-content: center;        /* centers horizontally */
+}
+
 
 .footer-end-line {
 	padding-bottom: 36px;

@@ -38,8 +38,7 @@
 			</div>
 		</div>
 
-		<div>
-
+	
 
 
 			<div class="row quote-row">
@@ -65,43 +64,11 @@
 				</div>
 			</div>
 			<!-- Row 7 -->
-			<div class="row">
-				<div style="flex: 0 0 6.72%;">
-					<img src="assets/css/images/inex_13.jpg" alt="">
-				</div>
-				<div style="flex: 0 0 7.76%; background-color: #d7f36a;">
-					<img src="assets/css/images/inex_14.jpg" alt="">
-				</div>
-				<div class="fixer"></div>
-				<div class="quote-second">
-					<div>
-						<div class="quote-second-text"><span class="vibrant">Vibrant</span> <span class="adj">(adj.)</span></div>
-						<div class="quote-second-meaning">
-							<div>A SPIRIT ALIVE WITH COLOR AND ENERGY;</div>
-							<div>A PERSONALITY THAT RADIATES WARMTH, ENTHUSIASM,</div>
-							<div>AND LIFE. TO BE VIBRANT IS TO PULSE WITH</div>
-							<div>AUTHENTICITY&mdash;TO LIGHT UP ROOMS, LIFT OTHERS, AND</div>
-							<div>MAKE ORDINARY MOMENTS FEEL EXTRAORDINARY</div>
-						</div>
-					</div>
-				</div>
-				<div style="flex: 0 0 7.50%;">
-					<img src="assets/css/images/inex_16.jpg" alt="">
-				</div>
-				<div style="flex: 0 0 6.92%; background-color: #d7f36a;">
-					<img src="assets/css/images/inex_17.jpg" alt="">
-				</div>
-				<div style="flex: 0 0 6.98%;">
-					<img src="assets/css/images/inex_18.jpg" alt="">
-				</div>
-				<div style="flex: 0 0 7.08%; background-color: #6db989;">
-					<img src="assets/css/images/inex_19.jpg" alt="">
-				</div>
-				<div style="flex: 0 0 15.42%;">
-					<img src="assets/css/images/inex_20.jpg" alt="">
-				</div>
+			<div class="row vibrant-section">
+				<!-- <img src="assets/css/images/vibrant-section.jpg" alt=""> -->
+				
 			</div>
-		</div>
+		
 		<!-- Row 8 -->
 		<div class="row">
 			<div class="gallery-main" style="flex: 0 0 100%;">
