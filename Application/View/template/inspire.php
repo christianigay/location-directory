@@ -68,6 +68,15 @@
     <div class="footer">
       <div class="footer-column footer-start">
         <img src="assets/css/images/index_10.jpg" alt="Theme Image" />
+        <div class="contact-item">
+          <img src="assets/css/images/instagram-icon.png" alt="Instagram Icon" />
+          <span>@INSPIRED_GRLS</span>
+        </div>
+
+        <div class="contact-item">
+          <img src="assets/css/images/mail-icon.png" alt="Mail Icon" />
+          <span>INSPIRED@THEX.CHURCH</span>
+        </div>
       </div>
 
       <div class="footer-column footer-middle">

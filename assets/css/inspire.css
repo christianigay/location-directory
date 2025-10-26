@@ -234,7 +234,8 @@ body {
   color: #fff;
   padding: 20px 40px;
   gap: 20px;
-  flex-wrap: nowrap; /* keep all 3 columns in one row */
+  flex-wrap: nowrap;
+  /* keep all 3 columns in one row */
 }
 
 .footer-column {
@@ -250,10 +251,30 @@ body {
   text-align: right;
 }
 
+/* --- Contact Items --- */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #222;
+  width: 20px;
+  height: 20px;
+}
+
+.contact-item img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: block;
+}
+
 /* --- Responsive Image Rules --- */
 .footer img {
   width: 100%;
-  max-width: 280px;  /* default image max width */
+  max-width: 280px;
+  /* default image max width */
   height: auto;
   display: inline-block;
   object-fit: contain;
@@ -267,6 +288,11 @@ body {
 @media (max-width: 1024px) {
   .footer img {
     max-width: 220px;
+  }
+
+  .contact-item img {
+    width: 20px;
+    height: 20px;
   }
 
   .desktop-only {
@@ -305,6 +331,11 @@ body {
   .footer img {
     max-width: 160px;
   }
+
+  .contact-item {
+    font-size: 0.9rem;
+    gap: 8px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -314,6 +345,15 @@ body {
   }
 
   .footer img {
-    max-width: 200px; /* smaller but keeps 3 columns visible */
+    max-width: 200px;
+  }
+
+  .contact-item {
+    font-size: 0.8rem;
+  }
+
+  .contact-item img {
+    width: 18px;
+    height: 18px;
   }
 }
