@@ -42,7 +42,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 36px 40px;
+	padding: 30px 40px;
 	box-sizing: border-box;
 	z-index: 999;
 	/* background: rgba(0, 0, 0, 0.5);  */
@@ -127,7 +127,6 @@ body {
 .quote-main-center {
 	text-align: end;
 	color: white;
-	font-family: cortado;
 }
 
 .quote-main-column {
@@ -186,11 +185,10 @@ body {
 }
 
 .conference-footer {
-  margin-top: auto; /* pushes footer to bottom of page */
   background-color: #d7f36a;
   display: flex;
-  justify-content: space-between; /* space between left, middle, right */
-  align-items: center;
+	align-items: flex-end;
+  justify-content: space-between;
   box-sizing: border-box;
   width: 100%;
 }
@@ -201,18 +199,53 @@ body {
 }
 
 .footer-center {
-  text-align: center;
-  font-family: 'Story Script', cursive;
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #000;
+	text-align: center;
+	color: #000;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: 'Cortado';
+	font-style: italic;
 }
 
 .footer-right {
-  text-align: right;
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 500;
   color: #000;
+	line-height: 34px;
+	padding: 0px 46px;
+}
+
+.foot-right-church {
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.foot-right-sub {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 22px;
+}
+
+.footer-icon {
+	font-size: 26px;
+	padding: 0px 62px;
+}
+
+.footer-icon-text {
+	padding-left: 12px;
+	font-weight: 600;
+}
+
+.footer-icon img {
+  width: 28px;
+  height: 30px;
+  object-fit: contain;
+  margin: 4px 0px;
+}
+
+.footer-end-line{
+	padding-bottom: 36px;
 }
 
 @media (max-width: 768px) {

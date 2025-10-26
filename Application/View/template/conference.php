@@ -107,13 +107,26 @@
 			<div class="footer-left">
 				<div>
 					<img src="assets/css/images/footer-logo.jpg" alt="">
+
 				</div>
 			</div>
 			<div class="footer-center">
-				<p>THE INSPIRED CONFERENCE 2026</p>
+				<img src="assets/css/images/footer-middle-bg.png" alt="">
 			</div>
 			<div class="footer-right">
-				dasdf
+				<img src="assets/css/images/x_church.png" alt="">
+			</div>
+		</div>
+		<div class="conference-footer footer-end-line">
+			<div class="footer-left">
+				<div class="row footer-icon">
+					<img style="font-size: 24px;" src="assets/css/images/instagram-icon.png" alt="">
+					<div class="footer-icon-text">@INSPIRED_GRLS</div>
+				</div>
+				<div class="row footer-icon">
+					<img src="assets/css/images/mail-icon.png" alt="">
+					<div class="footer-icon-text">INSPIRED@THEX.CHURCH</div>
+				</div>
 			</div>
 		</div>
 	</div>
