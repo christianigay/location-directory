@@ -39,7 +39,10 @@
       </div>
     </div>
 
-    <div>
+    <div class="scribble-section">
+      
+      <img src="assets/css/images/scribble1.png" alt="Decorative Scribble" class="scribble scribble-1" />
+
       <div class="three-column">
         <div class="col col-middle">
           <div class="quote-main-center">

@@ -225,6 +225,50 @@ body {
   /* ensure it's on top */
 }
 
+/* === SCRIBBLE DECORATIONS === */
+.scribble-section {
+  position: relative;
+  overflow: visible;
+}
+
+.scribble-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.scribble {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.scribble-1 {
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%) rotate(8deg);
+  width: 96%;
+}
+
+.scribble-2 {
+  bottom: -20px;
+  right: 10%;
+  transform: rotate(-6deg);
+  width: clamp(150px, 15vw, 220px);
+}
+
+.scribble-3 {
+  top: -10%;
+  left: 5%;
+  transform: rotate(15deg);
+  width: clamp(160px, 16vw, 240px);
+}
+
 /* === FOOTER === */
 .footer {
   display: flex;
@@ -336,6 +380,10 @@ body {
   .contact-item {
     font-size: 0.9rem;
     gap: 8px;
+  }
+
+  .scribble {
+    opacity: 0.7;
   }
 }
 
