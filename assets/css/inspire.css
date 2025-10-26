@@ -268,10 +268,10 @@ body {
 }
 
 .scribble-3 {
-  top: -10%;
-  left: 5%;
+  top: 109px;
+  left: 0%;
   transform: rotate(15deg);
-  right: -10%;
+  width: 40%;
 }
 
 /* === FOOTER === */
@@ -348,6 +348,14 @@ body {
     height: 20px;
   }
 
+}
+
+@media (max-width: 768px) {
+  .scribble-3 {
+    top: 148px;
+    left: -14%;
+    width: 32%;
+  }
 }
 
 /* Responsive for mobile */
