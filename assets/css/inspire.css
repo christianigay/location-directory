@@ -190,15 +190,54 @@ body {
 /* === GALLERY SECTION === */
 .gallery-section {
   width: 100%;
-  min-height: 1208px;
+  min-height: 1198px;
   background: url("images/gallery-section.jpg");
   background-size: cover;     /* ensures full coverage */
   background-position: center;
   background-repeat: no-repeat;
   display: block;
+}
+
+.quote-content {
+  max-width: 800px;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.quote-second-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Cortado';
+  font-style: italic;
+}
+
+.quote-second-meaning {
+	font-size: 20px;
+	font-weight: 700;
+	padding: 0px 10px;
+	line-height: 27px;
+  color: #fff; 
 
 }
 
+.vibrant {
+  font-weight: 700;
+	font-size: 42px;
+  color: #fff; 
+}
+
+.adj {
+  font-weight: 400;
+	font-size: 38px;
+  color: #fff; 
+}
+
+.quote-second-meaning div {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
 /* === FOOTER === */
 .footer-top {
   display: flex;
