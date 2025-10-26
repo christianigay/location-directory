@@ -58,9 +58,10 @@
 
     <div class="section theme-section">
       <img src="assets/css/images/index_07.jpg" alt="Theme Image" />
+      <img src="assets/css/images/main-content-image.png" alt="Theme Image" />
     </div>
 
-    <div class="section theme-section">
+    <div class="section theme-section2">
       <img src="assets/css/images/index_08.jpg" alt="Theme Image" />
     </div>
 

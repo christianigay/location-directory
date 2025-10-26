@@ -170,17 +170,32 @@ body {
 /* === THEME === */
 .theme-section img {
   width: 100%;
-  /* makes image scale with container width */
   height: auto;
-  /* keeps correct aspect ratio */
   display: block;
-  /* removes gaps below images */
   object-fit: cover;
-  /* ensures image fills space gracefully */
 }
 
 .theme-section {
   background-color: #f8f8f8;
+  position: relative;      /* makes child absolute positioning relative to this */
+  width: 100%;
+  overflow: hidden;
+}
+
+.theme-section img:first-child {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.theme-section img:last-child {
+  position: absolute;       /* overlay */
+  top: 50%;                 /* vertically center */
+  left: 50%;                /* horizontally center */
+  transform: translate(-50%, -50%);  /* perfect centering */
+  width: 65%;               /* scale overlay image size */
+  height: auto;
+  z-index: 2;               /* ensure it's on top */
 }
 
 /* === GALLERY SECTION === */
@@ -221,7 +236,7 @@ body {
 
 @media (max-width: 1024px) {
   .desktop-only {
-    display: none !important;
+    /* display: none !important; */
   }
 }
 
@@ -233,5 +248,9 @@ body {
 
   .theme-section {
     padding: 10px;
+  }
+
+  .theme-section img:last-child {
+    width: 70%; /* smaller screens get a smaller overlay */
   }
 }
