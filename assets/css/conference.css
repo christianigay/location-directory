@@ -59,7 +59,13 @@ body {
 	font-weight: bold;
 	cursor: pointer;
 	pointer-events: all;
-	/* re-enable button click */
+}
+
+.hero-overlay button:hover {
+  background-color: #ff89e4;
+  transform: scale(1.08);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(255, 181, 250, 0.5);
 }
 
 .hero-overlay div {
