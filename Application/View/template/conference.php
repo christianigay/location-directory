@@ -40,15 +40,24 @@
 			</div>
 		</div>
 		<!-- Row 5 -->
-		<div class="row">
-			<div style="flex: 0 0 39.58%;">
-				<img src="images/inex_09.jpg" alt="">
+		<div class="row quote-row">
+			<div class="quote-main-column">
+				
 			</div>
-			<div style="flex: 0 0 45.00%;">
-				<img src="images/quote-first.jpg" alt="">
+			
+			<div class="quote-main-center">
+				<!-- <img src="images/quote-first.jpg" alt=""> -->
+				<div>Here's another way to put it: You're here to be light, bringing out</div>
+				<div>the God-colors in the world. God is not a secret t be kept.  We're</div>
+				<div>going public with this, as public as a acity on a hill. If I make you</div>
+				<div>light-bearers, you don't think I'm going to hide you under a bucket,</div>
+				<div>do you? I'm putting you on a light stand. Now that I've put you there</div>
+				<div>on a hilltop, on a light stand&mdash;shine! Keep open house; be generous</div>
+				<div>with your lives. By opening up to others, you'll prompt people to</div>
+				<div>open up with God, this generous Father in heaven.</div>
+				<div class="quote-author">Matthew 5:14-16 MSG</div>
 			</div>
-			<div style="flex: 0 0 15.42%;">
-				<img src="images/inex_11.jpg" alt="">
+			<div class="quote-main-end">
 			</div>
 		</div>
 		<!-- Row 6 -->

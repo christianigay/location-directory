@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Cortado';
+    src: url('fonts/Cortado-Script-Web-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -138,6 +145,36 @@ body {
 	text-align: center;
 }
 
+.quote-row {
+	background-color: #6db989;
+}
+
+.quote-main-center {
+	text-align: end;
+	color: white;
+	font-family: cortado;
+}
+
+.quote-main-column{
+	flex: 0 0 15%;
+}
+
+.quote-main-center{
+	font-family: 'Cortado';
+	font-style: italic;
+	flex: 0 0 69%;
+	font-size: 30px;
+	line-height: 34px;
+	padding: 90px 0px;
+}
+
+.quote-author {
+	padding-top: 24px;
+}
+
+.quote-main-end {
+	flex: 0 0 15%;
+}
 @media (max-width: 768px) {
     .row {
         flex-direction: column;
