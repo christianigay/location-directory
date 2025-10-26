@@ -177,9 +177,23 @@ body {
 
 .theme-section {
   background-color: #f8f8f8;
-  position: relative;      /* makes child absolute positioning relative to this */
+  position: relative;
+  /* makes child absolute positioning relative to this */
   width: 100%;
   overflow: hidden;
+}
+
+.theme-section2 {
+  position: relative;
+  background-color: #f8f8f8;
+  /* optional */
+}
+
+.theme-section2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 .theme-section img:first-child {
@@ -189,13 +203,19 @@ body {
 }
 
 .theme-section img:last-child {
-  position: absolute;       /* overlay */
-  top: 50%;                 /* vertically center */
-  left: 50%;                /* horizontally center */
-  transform: translate(-50%, -50%);  /* perfect centering */
-  width: 65%;               /* scale overlay image size */
+  position: absolute;
+  /* overlay */
+  top: 50%;
+  /* vertically center */
+  left: 50%;
+  /* horizontally center */
+  transform: translate(-50%, -50%);
+  /* perfect centering */
+  width: 65%;
+  /* scale overlay image size */
   height: auto;
-  z-index: 2;               /* ensure it's on top */
+  z-index: 2;
+  /* ensure it's on top */
 }
 
 /* === GALLERY SECTION === */
@@ -251,6 +271,10 @@ body {
   }
 
   .theme-section img:last-child {
-    width: 70%; /* smaller screens get a smaller overlay */
+    width: 70%;
+  }
+
+  .theme-section2 {
+    padding: 10px;
   }
 }
