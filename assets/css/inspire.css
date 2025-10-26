@@ -187,6 +187,17 @@ body {
   margin: 0 auto;
 }
 
+/* === GALLERY SECTION === */
+.gallery-section {
+  width: 100%;
+  min-height: 1208px;
+  background: url("images/gallery-section.jpg");
+  background-size: cover;     /* ensures full coverage */
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+
+}
 
 /* === FOOTER === */
 .footer-top {

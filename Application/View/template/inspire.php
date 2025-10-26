@@ -64,6 +64,11 @@
       </div>
     </div>
 
+    <div class="gallery-section">
+    </div>
+
+    <div>test</div>
+
   </div>
 </body>
 
