@@ -65,6 +65,20 @@
       <img src="assets/css/images/index_08.jpg" alt="Theme Image" />
     </div>
 
+    <div class="footer">
+      <div class="footer-column footer-start">
+        <img src="assets/css/images/index_10.jpg" alt="Theme Image" />
+      </div>
+
+      <div class="footer-column footer-middle">
+        <img src="assets/css/images/index_11.jpg" alt="Theme Image" />
+      </div>
+
+      <div class="footer-column footer-end">
+        <img src="assets/css/images/index_12.jpg" alt="Theme Image" />
+      </div>
+    </div>
+
 
   </div>
 </body>
