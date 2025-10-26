@@ -31,11 +31,14 @@
     </div>
 
     <div class="section divider">
-      <img src="assets/css/images/index_02.jpg" alt="Divider Line" />
+      <!-- <img src="assets/css/images/index_02.jpg" alt="Divider Line" /> -->
     </div>
 
     <div class="section register">
-      <img src="assets/css/images/register-section.jpg" alt="Register Section" />
+      <div class="register-text">
+				<div>REGISTER NOW</div>
+			</div>
+      <!-- <img src="assets/css/images/register-section.jpg" alt="Register Section" /> -->
     </div>
 
     <div class="section quote-section">

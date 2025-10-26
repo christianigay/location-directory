@@ -101,6 +101,14 @@ body {
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 
+.register-text {
+	width: 100%;
+	background-color: #ffb5fa;
+	font-weight: 700;
+	font-size: 81px;
+	text-align: center;
+}
+
 /* QUOTE SECTION */
 .quote-section {
   display: flex;
