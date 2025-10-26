@@ -24,10 +24,8 @@
 				Your browser does not support the video tag.
 			</video>
 
-			<!-- main title background -->
 			<div class="main-title"></div>
 
-			<!-- text below main title -->
 			<div class="conference-title">
 				THE INSPIRED CONFERENCE 2026
 			</div>
@@ -39,14 +37,11 @@
 				<div>REGISTER NOW</div>
 			</div>
 		</div>
-		<!-- Row 5 -->
+
 		<div class="row quote-row">
-			<div class="quote-main-column">
-				
-			</div>
+			<div class="quote-main-column"></div>
 			
 			<div class="quote-main-center">
-				<!-- <img src="images/quote-first.jpg" alt=""> -->
 				<div>Here's another way to put it: You're here to be light, bringing out</div>
 				<div>the God-colors in the world. God is not a secret t be kept.  We're</div>
 				<div>going public with this, as public as a acity on a hill. If I make you</div>
@@ -57,8 +52,7 @@
 				<div>open up with God, this generous Father in heaven.</div>
 				<div class="quote-author">Matthew 5:14-16 MSG</div>
 			</div>
-			<div class="quote-main-end">
-			</div>
+			<div class="quote-main-end"></div>
 		</div>
 		<!-- Row 6 -->
 		<div class="row">
