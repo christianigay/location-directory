@@ -41,6 +41,7 @@
 
     <div class="scribble-section">
       
+      <img src="assets/css/images/scribbleb.png" alt="Scribble Decoration" class="scribble scribble-2" />
       <img src="assets/css/images/scribble1.png" alt="Decorative Scribble" class="scribble scribble-1" />
 
       <div class="three-column">

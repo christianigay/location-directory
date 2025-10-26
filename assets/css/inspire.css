@@ -256,17 +256,17 @@ body {
 }
 
 .scribble-2 {
-  bottom: -20px;
-  right: 10%;
+  bottom: -108px;
+  right: -10%;
   transform: rotate(-6deg);
-  width: clamp(150px, 15vw, 220px);
+  width: 28%;
 }
 
 .scribble-3 {
   top: -10%;
   left: 5%;
   transform: rotate(15deg);
-  width: clamp(160px, 16vw, 240px);
+  right: -10%;
 }
 
 /* === FOOTER === */
