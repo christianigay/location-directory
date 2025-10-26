@@ -61,7 +61,7 @@
 			<!-- Row 6 -->
 			<div class="row">
 				<div class="theme-title" style="flex: 0 0 100%;">
-					<img src="assets/css/images/theme-title-main-content.jpg" alt="">
+					<img src="assets/css/images/main-content-image.png" alt="">
 				</div>
 			</div>
 			<!-- Row 7 -->

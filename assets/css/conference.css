@@ -90,6 +90,23 @@ body {
 	/* adjust to your image ratio (e.g., 3/1, 4/3, etc.) */
 }
 
+.theme-title {
+background-color: #6db989;
+background-image: url('images/theme-title-main-content.jpg');
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px; /* adjust to your image size */
+  width: 100%;
+}
+
+.theme-title > img {
+	max-width: 100%;             /* responsive scaling */
+  max-height: 87%;            /* don’t exceed container */
+  object-fit: contain;         /* keep full image visible */
+  display: block;
+}
+
 .conference-title {
 	position: relative;
 	z-index: 2;
