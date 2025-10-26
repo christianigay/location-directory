@@ -3,7 +3,7 @@
 namespace Application\Controllers;
 
 use Application\Interfaces\ViewInterface;
-use Application\Models\ConferenceModel;
+use Application\Models\InspireModel;
 
 class InspireController
 {
@@ -15,12 +15,12 @@ class InspireController
   public function __construct(ViewInterface $view)
   {
     $this->view = $view;
-    $this->model = new ConferenceModel;
+    $this->model = new InspireModel;
   }
 
   public function index()
   {
-    $this->data['meta'] = ['title' => 'Conference'];
+    $this->data['meta'] = ['title' => 'inspire'];
     $this->data['data'] = $this->model->getData();
     return $this->view->view($this->data);
   }

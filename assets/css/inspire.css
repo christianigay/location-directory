@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.section {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* === HERO OVERLAY === */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+  z-index: 999;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.hero-overlay button {
+  background-color: #ffb5fa;
+  border: none;
+  border-radius: 60px;
+  padding: 12px 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.hero-overlay button:hover {
+  background-color: #ff89e4;
+  transform: scale(1.08);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(255, 181, 250, 0.5);
+}
+
+.hero-overlay div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+  text-align: center;
+  pointer-events: all;
+}
+
+/* === TITLE CONTAINER === */
+.title-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* full-screen hero */
+  overflow: hidden;
+}
+
+/* make video full width & behind text */
+.title-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0; /* behind everything */
+}
+
+.main-title {
+  position: relative;
+  z-index: 2; /* above video */
+  width: 100%;
+  background-image: url('/assets/css/images/head_title.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 3 / 1;
+  margin-top: 150px; /* push below overlay if needed */
+}
+
+.conference-title {
+  position: relative;
+  z-index: 3; /* ensure above video */
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* QUOTE SECTION */
+.quote-section {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.quote-section div {
+  flex-shrink: 0;
+}
+
+.quote-section .start {
+  width: 640px;
+}
+
+.quote-section .middle {
+  width: 994px;
+}
+
+.quote-section .end {
+  width: 286px;
+}
+
+/* FOOTER */
+.footer-top {
+  display: flex;
+  width: 100%;
+}
+
+.footer-top div {
+  flex: 1;
+}
+
+.footer-row {
+  display: flex;
+  width: 100%;
+}
+
+.footer-row img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer-left {
+  width: 960px;
+}
+
+.footer-right {
+  width: 960px;
+}
