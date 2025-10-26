@@ -31,6 +31,7 @@ body {
   margin-left: 50%;
   transform: translateX(-50%);
   overflow: hidden;
+  z-index: 11;
 }
 
 /* === HERO OVERLAY === */
@@ -118,6 +119,10 @@ body {
 }
 
 /* === REGISTER SECTION === */
+.register {
+  z-index: 10;
+}
+
 .register-text {
   width: 100vw;
   background-color: #ffb5fa;
@@ -249,8 +254,8 @@ body {
 }
 
 .scribble-1 {
-  top: 15%;
-  left: 50%;
+  top: -15%;
+  left: 51%;
   transform: translateX(-50%) rotate(8deg);
   width: 96%;
 }
