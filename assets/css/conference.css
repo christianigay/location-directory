@@ -305,6 +305,16 @@ body {
 	padding-bottom: 36px;
 }
 
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
 @media (max-width: 768px) {
 	.row {
 		flex-direction: column;

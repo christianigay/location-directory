@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="container desktop-only">
 
 		<div class="hero-overlay">
 			<button>REGISTER NOW</button>
