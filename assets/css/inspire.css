@@ -164,14 +164,14 @@ body {
   flex: 0 0 69%;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
   line-height: 34px;
-  padding: 90px 120px;
+  padding: 90px 214px;
 }
 
 .quote-author {
   margin-top: 20px;
   font-weight: bold;
   font-size: clamp(0.7rem, 2vw, 1.2rem);
-  color: #666;
+  color: #fff;
 }
 
 /* === THEME === */
@@ -286,6 +286,10 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .quote-main-center {
+    padding: 90px 120px;
+  }
+
   .footer img {
     max-width: 220px;
   }
@@ -295,9 +299,6 @@ body {
     height: 20px;
   }
 
-  .desktop-only {
-    /* display: none !important; */
-  }
 }
 
 /* Responsive for mobile */
