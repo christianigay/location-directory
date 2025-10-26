@@ -69,9 +69,10 @@
 				<div style="flex: 0 0 6.72%;">
 					<img src="assets/css/images/inex_13.jpg" alt="">
 				</div>
-				<div style="flex: 0 0 7.76%;">
+				<div style="flex: 0 0 7.76%; background-color: #d7f36a;">
 					<img src="assets/css/images/inex_14.jpg" alt="">
 				</div>
+				<div class="fixer"></div>
 				<div class="quote-second">
 					<div>
 						<div class="quote-second-text"><span class="vibrant">Vibrant</span> <span class="adj">(adj.)</span></div>
@@ -87,13 +88,13 @@
 				<div style="flex: 0 0 7.50%;">
 					<img src="assets/css/images/inex_16.jpg" alt="">
 				</div>
-				<div style="flex: 0 0 6.92%;">
+				<div style="flex: 0 0 6.92%; background-color: #d7f36a;">
 					<img src="assets/css/images/inex_17.jpg" alt="">
 				</div>
 				<div style="flex: 0 0 6.98%;">
 					<img src="assets/css/images/inex_18.jpg" alt="">
 				</div>
-				<div style="flex: 0 0 7.08%;">
+				<div style="flex: 0 0 7.08%; background-color: #6db989;">
 					<img src="assets/css/images/inex_19.jpg" alt="">
 				</div>
 				<div style="flex: 0 0 15.42%;">
