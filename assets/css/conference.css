@@ -175,6 +175,35 @@ body {
 .quote-main-end {
 	flex: 0 0 15%;
 }
+
+.quote-second {
+	flex: 0 0 41.61%;
+	background-color: #6db989;
+	color: white;
+}
+
+.quote-second-text {
+	font-family: 'Cortado';
+	font-style: italic;
+}
+
+.vibrant {
+	font-weight: 700;
+	font-size: 42px;
+}
+
+.adj {
+	font-weight: 400;
+	font-size: 38px;
+}
+
+.quote-second-meaning {
+	font-size: 20px;
+	font-weight: 700;
+	padding: 0px 10px;
+	line-height: 27px;
+}
+
 @media (max-width: 768px) {
     .row {
         flex-direction: column;

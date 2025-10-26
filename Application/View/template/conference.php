@@ -68,8 +68,17 @@
 			<div style="flex: 0 0 7.76%;">
 				<img src="images/inex_14.jpg" alt="">
 			</div>
-			<div style="flex: 0 0 41.61%;">
-				<img src="images/quote-second.jpg" alt="">
+			<div class="quote-second">
+				<div>
+					<div class="quote-second-text"><span class="vibrant">Vibrant</span> <span class="adj">(adj.)</span></div>
+					<div class="quote-second-meaning">
+						<div>A SPIRIT ALIVE WITH COLOR AND ENERGY;</div>
+						<div>A PERSONALITY THAT RADIATES WARMTH, ENTHUSIASM,</div>
+						<div>AND LIFE. TO BE VIBRANT IS TO PULSE WITH</div>
+						<div>AUTHENTICITY&mdash;TO LIGHT UP ROOMS, LIFT OTHERS, AND</div>
+						<div>MAKE ORDINARY MOMENTS FEEL EXTRAORDINARY</div>
+					</div>
+				</div>
 			</div>
 			<div style="flex: 0 0 7.50%;">
 				<img src="images/inex_16.jpg" alt="">
