@@ -104,8 +104,8 @@
 		</div>
 		<!-- Row 8 -->
 		<div class="row">
-			<div style="flex: 0 0 100%;">
-				<img src="assets/css/images/gallery.jpg" alt="">
+			<div class="gallery-main" style="flex: 0 0 100%;">
+				<img src="assets/css/images/more_to_come.png" alt="">
 			</div>
 		</div>
 		<!-- Footer -->
