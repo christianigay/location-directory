@@ -18,6 +18,40 @@
         <div>SATURDAY, APRIL 25</div>
       </div>
 
+      <!-- Registration Modal -->
+      <div class="modal" id="registerModal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <h2>Conference Registration</h2>
+          <p>Sign up below to join our upcoming conference!</p>
+
+          <form id="registerForm">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(Optional)">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Additional Notes</label>
+              <textarea id="message" name="message" rows="3" placeholder="Any message?"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+
       <div class="title-container">
         <video autoplay muted loop playsinline>
           <source src="videos/Inspired_desktop_output.mp4" type="video/mp4">
@@ -40,7 +74,7 @@
     </div>
 
     <div class="scribble-section">
-      
+
       <img src="assets/css/images/scribbleb.png" alt="Scribble Decoration" class="scribble scribble-2" />
       <img src="assets/css/images/scribble1.png" alt="Decorative Scribble" class="scribble scribble-1" />
       <img src="assets/css/images/scribble3.png" alt="Scribble Decoration" class="scribble scribble-3" />
@@ -97,8 +131,8 @@
 
   </div>
   <?php foreach ($this->jsFiles as $jsFile): ?>
-		<script src="<?php echo $jsFile; ?>"></script>
-	<?php endforeach; ?>
+    <script src="<?php echo $jsFile; ?>"></script>
+  <?php endforeach; ?>
 </body>
 
 </html>

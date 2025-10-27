@@ -11,3 +11,20 @@ window.addEventListener('scroll', () => {
     el.style.transform = `translateY(${offset}px) rotate(var(--rotate, 0deg))`;
   });
 });
+
+const modal = document.getElementById('registerModal');
+const openBtn = document.querySelector('.hero-overlay button');
+const closeBtn = document.querySelector('.close-btn');
+
+openBtn.addEventListener('click', () => modal.classList.add('show'));
+closeBtn.addEventListener('click', () => modal.classList.remove('show'));
+
+window.addEventListener('click', (e) => {
+  if (e.target === modal) modal.classList.remove('show');
+});
+
+document.getElementById('registerForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Thank you for registering! We’ll be in touch soon.');
+  modal.classList.remove('show');
+});
