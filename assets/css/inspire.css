@@ -131,6 +131,10 @@ body {
   padding: 24px 0px;
 }
 
+.register-text {
+  color: #000;
+}
+
 /* === QUOTE SECTION === */
 .three-column {
   display: flex;
