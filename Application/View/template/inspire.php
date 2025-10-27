@@ -21,7 +21,7 @@
 
 
       <div class="title-container">
-        <video autoplay muted loop playsinline>
+        <video autoplay muted loop playsinline preload="auto">
           <source src="https://thex.church/wp-content/uploads/2025/10/Inspired_desktop_output.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
