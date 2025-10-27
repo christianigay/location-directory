@@ -24,12 +24,7 @@ body {
   overflow: hidden;
 }
 
-/* HERO: Make first section full-width edge-to-edge */
 .hero-main {
-  width: 100vw;
-  max-width: 100vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
   overflow: hidden;
   z-index: 11;
 }
