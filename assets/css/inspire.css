@@ -15,6 +15,11 @@ body {
   margin: 0 auto;
 }
 
+.page-id-845593 .entry-title {
+  display: none !important;
+}
+
+
 /* === SECTION BASE === */
 .section {
   width: 100%;
@@ -118,8 +123,11 @@ body {
   z-index: 10;
   background-color: #ffb5fa;
   font-weight: 700;
-  font-size: 81px;
+  font-size: 38px;
   text-align: center;
+  z-index: 1000;
+  height: 78px;
+  padding: 24px 0px;
 }
 
 /* === QUOTE SECTION === */
@@ -158,7 +166,7 @@ body {
   flex: 0 0 69%;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
   line-height: 34px;
-  padding: 90px 397px;
+  padding: 90px 200px;
 }
 
 .quote-author {
@@ -261,14 +269,14 @@ body {
 
 .scribble-1 {
   top: -15%;
-  left: -1%;
+  left: 0%;
   transform: translateX(-50%) rotate(8deg);
   width: 96%;
 }
 
 .scribble-2 {
-  bottom: -160px;
-  right: 2%;
+  bottom: -54px;
+  right: 0%;
   transform: rotate(-6deg);
   width: 28%;
 }
@@ -479,7 +487,7 @@ body {
   }
 
   .theme-section {
-    padding: 10px;
+    
   }
 
   .theme-section img:last-child {
@@ -487,7 +495,7 @@ body {
   }
 
   .theme-section2 {
-    padding: 10px;
+    
   }
 
   .quote-main-center {
@@ -521,7 +529,6 @@ body {
 
   .scribble-1 {
     top: -6%;
-    left: 50%;
   }
 
   .modal-content {
