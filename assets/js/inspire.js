@@ -28,3 +28,12 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
   alert('Thank you for registering! We’ll be in touch soon.');
   modal.classList.remove('show');
 });
+
+const style = document.createElement('style');
+style.innerHTML = `
+  #eut-page-title {
+    display: none !important;
+  }
+`;
+document.head.appendChild(style);
+
