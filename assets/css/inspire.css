@@ -382,10 +382,10 @@ body {
   color: #333;
   padding: 30px 40px;
   border-radius: 16px;
-  width: 90%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   position: relative;
   animation: slideUp 0.3s ease;
+  width: 700px;
 }
 
 @keyframes slideUp {
@@ -481,10 +481,6 @@ body {
     height: 20px;
   }
 
-  .modal-content {
-    max-width: 520px;
-  }
-
 }
 
 /* Responsive for mobile */
@@ -542,7 +538,6 @@ body {
   .modal-content {
     width: 95%;
     height: 90vh;
-    max-width: none;
     padding: 25px 20px;
     border-radius: 16px;
     overflow-y: auto;
