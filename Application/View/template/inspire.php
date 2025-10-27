@@ -15,7 +15,7 @@
     <div class="section hero-main">
       <div class="hero-overlay">
         <button>REGISTER NOW</button>
-        <div>SATURDAY, APRIL 25</div>
+        <div class="hero-date">SATURDAY, APRIL 25</div>
       </div>
 
 

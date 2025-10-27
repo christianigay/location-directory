@@ -33,7 +33,6 @@ body {
   overflow: hidden;
   z-index: 11;
 }
-
 /* === HERO OVERLAY === */
 .hero-overlay {
   position: absolute;
@@ -67,10 +66,12 @@ body {
   box-shadow: 0 0 15px rgba(255, 181, 250, 0.5);
 }
 
-.hero-overlay div {
+/* ✅ NEW STRUCTURE: button left, date centered */
+.hero-overlay .hero-date {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
 }
@@ -478,6 +479,20 @@ body {
     height: 20px;
   }
 
+  .hero-overlay {
+    padding: 20px 25px;
+    font-size: 2rem;
+  }
+
+  .hero-overlay button {
+    font-size: 1.2rem;
+    padding: 10px 18px;
+  }
+
+  .hero-overlay .hero-date {
+    font-size: 16px;
+  }
+
 }
 
 /* Responsive for mobile */
@@ -567,6 +582,25 @@ body {
     top: 12px;
     right: 16px;
   }
+
+  .hero-overlay {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .hero-overlay .hero-date {
+    position: static;
+    transform: none;
+    margin-left: 20px;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  .hero-overlay button {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -606,5 +640,21 @@ body {
   .submit-btn {
     font-size: 1rem;
     padding: 16px;
+  }
+
+  .hero-overlay {
+    flex-direction: column;
+    text-align: right;
+    padding: 15px;
+  }
+
+  .hero-overlay button {
+    width: fit-content;
+    margin-bottom: 8px;
+  }
+
+  .hero-overlay .hero-date {
+    font-size: 14px;
+    margin: 0;
   }
 }
