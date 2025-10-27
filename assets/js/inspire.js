@@ -34,6 +34,14 @@ style.innerHTML = `
   #eut-page-title {
     display: none !important;
   }
+
+#page-845593 > .eut-section:first-of-type {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
 `;
 document.head.appendChild(style);
+
 
