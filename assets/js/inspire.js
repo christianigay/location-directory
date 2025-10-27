@@ -39,7 +39,7 @@ style.innerHTML = `
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-
+  
 
 `;
 document.head.appendChild(style);

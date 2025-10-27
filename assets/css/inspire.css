@@ -166,6 +166,8 @@ body {
 }
 
 .quote-main-center {
+  position: relative;
+  z-index: 3;
   font-family: 'Cortado';
   font-style: italic;
   flex: 0 0 69%;
